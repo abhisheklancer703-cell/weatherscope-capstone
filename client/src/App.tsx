@@ -23,17 +23,19 @@ import AdminUsers from "@/pages/admin/AdminUsers";
 import AdminLogs from "@/pages/admin/AdminLogs";
 import AdminSettings from "@/pages/admin/AdminSettings";
 
+const BASE = "/weatherscope-capstone";
+
 function MainRouter() {
   return (
     <Switch>
-      <Route path="/" component={Home} />
-      <Route path="/upload" component={Upload} />
-      <Route path="/cleaning" component={DataCleaning} />
-      <Route path="/analysis" component={Analysis} />
-      <Route path="/visualization" component={Visualization} />
-      <Route path="/prediction" component={Prediction} />
-      <Route path="/results" component={Results} />
-      <Route path="/about" component={About} />
+      <Route path={BASE + "/"} component={Home} />
+      <Route path={BASE + "/upload"} component={Upload} />
+      <Route path={BASE + "/cleaning"} component={DataCleaning} />
+      <Route path={BASE + "/analysis"} component={Analysis} />
+      <Route path={BASE + "/visualization"} component={Visualization} />
+      <Route path={BASE + "/prediction"} component={Prediction} />
+      <Route path={BASE + "/results"} component={Results} />
+      <Route path={BASE + "/about"} component={About} />
       <Route component={NotFound} />
     </Switch>
   );
@@ -42,11 +44,11 @@ function MainRouter() {
 function AdminLayout() {
   return (
     <Switch>
-      <Route path="/admin" component={AdminLogin} />
-      <Route path="/admin/dashboard" component={AdminDashboard} />
-      <Route path="/admin/users" component={AdminUsers} />
-      <Route path="/admin/logs" component={AdminLogs} />
-      <Route path="/admin/settings" component={AdminSettings} />
+      <Route path={BASE + "/admin"} component={AdminLogin} />
+      <Route path={BASE + "/admin/dashboard"} component={AdminDashboard} />
+      <Route path={BASE + "/admin/users"} component={AdminUsers} />
+      <Route path={BASE + "/admin/logs"} component={AdminLogs} />
+      <Route path={BASE + "/admin/settings"} component={AdminSettings} />
       <Route component={AdminLogin} />
     </Switch>
   );
@@ -67,7 +69,7 @@ function MainLayout() {
 
 function App() {
   const [location] = useLocation();
-  const isAdminRoute = location.startsWith("/admin");
+  const isAdminRoute = location.startsWith(BASE + "/admin");
 
   return (
     <QueryClientProvider client={queryClient}>
