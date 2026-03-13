@@ -1,0 +1,75 @@
+
+> rest-express@1.0.0 dev
+> NODE_ENV=development tsx server/index.ts
+
+[1G[0KSeeded weather data
+3:47:30 PM [express] serving on port 5000
+3:47:38 PM [express] GET /api/weather/Delhi 200 in 1917ms :: {"location":"Delhi","country":"India","temp_c":26,"temp_f":78,"condition":"Overcast","humidity":55,"wind_kph":7,"wind_dir":"NNW","feelslike_c":27,"cloud":100,"weather_code":3}
+3:47:39 PM [express] GET /api/weather/Delhi 304 in 463ms :: {"location":"Delhi","country":"India","temp_c":26,"temp_f":78,"condition":"Overcast","humidity":55,"wind_kph":7,"wind_dir":"NNW","feelslike_c":27,"cloud":100,"weather_code":3}
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:47:40 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Prediction.tsx, /src/pages/DataCleaning.tsx, /src/pages/Visualization.tsx, /src/pages/Analysis.tsx, /src/pages/Upload.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:47:44 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Prediction.tsx, /src/pages/DataCleaning.tsx, /src/pages/Visualization.tsx, /src/pages/Analysis.tsx, /src/pages/Upload.tsx, /src/index.css[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:47:50 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Upload.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:47:54 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Upload.tsx, /src/index.css[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:47:58 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Upload.tsx, /src/index.css[22m [33m(x3)[39m

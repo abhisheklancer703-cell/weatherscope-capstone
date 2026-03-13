@@ -1,0 +1,46 @@
+[1G[0K⠙[1G[0K⠹[1G[0K
+> rest-express@1.0.0 dev
+> NODE_ENV=development tsx server/index.ts
+
+[1G[0K⠹[1G[0KSeeded weather data
+3:05:18 PM [express] serving on port 5000
+3:06:14 PM [express] GET /api/weather/Delhi 200 in 2103ms :: {"location":"Delhi","country":"India","temp_c":27,"temp_f":80,"condition":"Overcast","humidity":48,"wind_kph":6,"wind_dir":"NNW","feelslike_c":27,"cloud":100,"weather_code":3}
+3:06:15 PM [express] GET /api/weather/Delhi 304 in 637ms :: {"location":"Delhi","country":"India","temp_c":27,"temp_f":80,"condition":"Overcast","humidity":48,"wind_kph":6,"wind_dir":"NNW","feelslike_c":27,"cloud":100,"weather_code":3}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:28:28 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Upload.tsx, /src/index.css[22m

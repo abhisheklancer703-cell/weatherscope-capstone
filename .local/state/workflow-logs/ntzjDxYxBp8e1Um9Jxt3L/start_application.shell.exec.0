@@ -1,0 +1,7 @@
+
+> rest-express@1.0.0 dev
+> NODE_ENV=development tsx server/index.ts
+
+[1G[0K3:48:11 PM [express] serving on port 5000
+3:48:19 PM [express] GET /api/weather/Delhi 304 in 2334ms :: {"location":"Delhi","country":"India","temp_c":26,"temp_f":78,"condition":"Overcast","humidity":55,"wind_kph":7,"wind_dir":"NNW","feelslike_c":27,"cloud":100,"weather_code":3}
+3:48:20 PM [express] GET /api/weather/Delhi 304 in 677ms :: {"location":"Delhi","country":"India","temp_c":26,"temp_f":78,"condition":"Overcast","humidity":55,"wind_kph":7,"wind_dir":"NNW","feelslike_c":27,"cloud":100,"weather_code":3}

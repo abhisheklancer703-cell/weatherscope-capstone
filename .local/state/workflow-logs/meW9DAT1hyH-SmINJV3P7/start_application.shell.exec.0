@@ -1,0 +1,14 @@
+
+> rest-express@1.0.0 dev
+> NODE_ENV=development tsx server/index.ts
+
+[1G[0K5:25:33 PM [express] serving on port 5000
+5:25:41 PM [express] GET /api/weather/Delhi 304 in 1989ms :: {"location":"Delhi","country":"India","temp_c":22,"temp_f":71,"condition":"Overcast","humidity":61,"wind_kph":5,"wind_dir":"WNW","feelslike_c":22,"cloud":100,"weather_code":3}
+5:25:42 PM [express] GET /api/weather/Delhi 304 in 1184ms :: {"location":"Delhi","country":"India","temp_c":22,"temp_f":71,"condition":"Overcast","humidity":61,"wind_kph":5,"wind_dir":"WNW","feelslike_c":22,"cloud":100,"weather_code":3}
+5:25:44 PM [express] GET /api/weather/Delhi 304 in 797ms :: {"location":"Delhi","country":"India","temp_c":22,"temp_f":71,"condition":"Overcast","humidity":61,"wind_kph":5,"wind_dir":"WNW","feelslike_c":22,"cloud":100,"weather_code":3}
+5:25:45 PM [express] GET /api/weather/Delhi 304 in 612ms :: {"location":"Delhi","country":"India","temp_c":22,"temp_f":71,"condition":"Overcast","humidity":61,"wind_kph":5,"wind_dir":"WNW","feelslike_c":22,"cloud":100,"weather_code":3}
+5:25:46 PM [express] GET /api/weather/stats 304 in 11ms :: {"totalRecords":4,"temp":{"min":29,"max":32,"avg":30.5},"rainfall":{"min":0,"max":5,"avg":2},"humidity":{"min":50,"max":65,"avg":57.5},"yearWiseTrends":{"2026":{"avgTemp":30.5,"totalRain":8}}}
+5:25:46 PM [express] GET /api/weather/Delhi 304 in 511ms :: {"location":"Delhi","country":"India","temp_c":22,"temp_f":71,"condition":"Overcast","humidity":61,"wind_kph":5,"wind_dir":"WNW","feelslike_c":22,"cloud":100,"weather_code":3}
+5:25:47 PM [express] GET /api/weather/Delhi 304 in 522ms :: {"location":"Delhi","country":"India","temp_c":22,"temp_f":71,"condition":"Overcast","humidity":61,"wind_kph":5,"wind_dir":"WNW","feelslike_c":22,"cloud":100,"weather_code":3}
+5:26:42 PM [express] GET /api/weather/Delhi 304 in 1753ms :: {"location":"Delhi","country":"India","temp_c":22,"temp_f":71,"condition":"Overcast","humidity":61,"wind_kph":5,"wind_dir":"WNW","feelslike_c":22,"cloud":100,"weather_code":3}
+5:27:42 PM [express] GET /api/weather 200 in 15ms :: [{"id":125,"date":"2026-01-03T00:00:00.000Z","temperature":30,"rainfall":2,"humidity":55},{"id":126,"date":"2026-02-03T00:00:00.000Z","temperature":32,"rainfall":0,"humidity":50},{"id":127,"date":"2026-03-03T00:00:00.000Z","temperature":29,"rainfall":5,"humidity":65},{"id":128,"date":"2026-04-03T00:00:00.000Z","temperature":31,"rainfall":1,"humidity":60}]

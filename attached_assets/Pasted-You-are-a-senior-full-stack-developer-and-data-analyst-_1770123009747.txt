@@ -1,0 +1,134 @@
+You are a senior full-stack developer and data analyst.
+
+Build a COMPLETE, FINISHED, BUG-FREE Weather Data Analysis & Prediction Web Application using modern best practices.
+
+The app must be fully functional, well-structured, visually clean, responsive, and ready for academic submission (Capstone Project level).
+
+════════════════════════════
+1. TECH STACK (MANDATORY)
+════════════════════════════
+• Frontend: HTML, CSS, JavaScript (modern, clean UI)
+• Backend: Python (Flask)
+• Data Analysis: Pandas, NumPy
+• Visualization: Matplotlib / Chart.js
+• Prediction: Simple Linear Regression (no heavy ML)
+• Database: CSV-based or local storage (no paid APIs)
+• Deployment-ready for Replit
+
+════════════════════════════
+2. APP PURPOSE
+════════════════════════════
+Analyze historical weather data and predict future trends for:
+• Temperature
+• Rainfall
+• Humidity
+
+The app must demonstrate:
+• Data cleaning
+• Trend analysis
+• Visualization
+• Simple future prediction
+• Insight generation
+
+════════════════════════════
+3. APP PAGES / SCREENS (ALL REQUIRED)
+════════════════════════════
+
+1️⃣ HOME PAGE
+• App title: “Weather Data Analysis & Prediction”
+• Short description of the project
+• Navigation menu (Home, Upload Data, Analysis, Prediction, Visualizations, About)
+• Clean academic-style UI
+• Responsive design
+
+2️⃣ DATA UPLOAD PAGE
+• Upload CSV weather dataset
+• Show dataset preview (first 5–10 rows)
+• Validate file format
+• Show error messages if data is invalid
+• Required columns:
+  - Date
+  - Temperature
+  - Rainfall
+  - Humidity
+
+3️⃣ DATA CLEANING MODULE
+• Handle missing values
+• Remove invalid entries
+• Convert date to proper format
+• Show before-after cleaning summary
+• Display cleaned dataset preview
+
+4️⃣ DATA ANALYSIS PAGE
+• Year-wise temperature trend
+• Month-wise rainfall analysis
+• Average, minimum, maximum calculations
+• Text-based insights generated automatically
+
+5️⃣ VISUALIZATION PAGE
+• Line chart for temperature trend
+• Bar chart for rainfall
+• Optional humidity graph
+• Charts must be clear, labeled, and professional
+
+6️⃣ PREDICTION PAGE
+• Simple Linear Regression model
+• Predict:
+  - Future temperature trend
+  - Future rainfall trend
+• Show predicted values clearly
+• Display explanation of prediction logic in simple words
+
+7️⃣ RESULTS & INSIGHTS PAGE
+• Key findings
+• Climate pattern summary
+• Real-world impact explanation (agriculture, daily life)
+
+8️⃣ ABOUT PAGE
+• Project description
+• Objective
+• Tools & technologies used
+• Academic tone (Capstone ready)
+
+════════════════════════════
+4. UI / UX REQUIREMENTS
+════════════════════════════
+• Clean, minimal, academic-friendly design
+• Consistent color theme
+• Mobile-responsive layout
+• Proper spacing and typography
+• No broken layouts
+• No placeholder text left
+
+════════════════════════════
+5. FUNCTIONAL REQUIREMENTS
+════════════════════════════
+• No hard-coded values
+• Proper error handling
+• Clear success / error messages
+• Modular and readable code
+• Comments explaining important logic
+• No unnecessary complexity
+
+════════════════════════════
+6. FINAL OUTPUT REQUIREMENTS
+════════════════════════════
+• App must RUN without errors on Replit
+• All pages must be connected
+• All features must work
+• Code must be clean and organized
+• Ready to show to teachers
+• Ready for screenshots & presentation
+
+════════════════════════════
+7. EXTRA (IMPORTANT)
+════════════════════════════
+• Include a sample CSV dataset if user does not upload one
+• Add README instructions inside the project
+• Explain how to run the app in Replit
+• Ensure NOTHING is left incomplete
+
+════════════════════════════
+DELIVER A FULLY FINISHED, POLISHED WEATHER DATA ANALYSIS & PREDICTION APPLICATION.
+DO NOT SKIP ANY FEATURE.
+DO NOT LEAVE ANY SECTION EMPTY.

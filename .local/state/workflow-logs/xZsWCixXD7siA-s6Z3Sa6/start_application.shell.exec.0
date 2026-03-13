@@ -1,0 +1,14 @@
+[1G[0K⠙[1G[0K
+> rest-express@1.0.0 dev
+> NODE_ENV=development tsx server/index.ts
+
+[1G[0K⠙[1G[0K10:34:24 AM [express] serving on port 5000
+10:34:34 AM [express] GET /api/weather/Delhi 200 in 1310ms :: {"location":"Delhi","country":"India","temp_c":35,"temp_f":94,"condition":"Mainly clear","humidity":23,"wind_kph":9,"wind_dir":"WNW","feelslike_c":34,"cloud":8,"weather_code":1}
+10:34:35 AM [express] GET /api/weather/Delhi 304 in 796ms :: {"location":"Delhi","country":"India","temp_c":35,"temp_f":94,"condition":"Mainly clear","humidity":23,"wind_kph":9,"wind_dir":"WNW","feelslike_c":34,"cloud":8,"weather_code":1}
+10:35:59 AM [express] DELETE /api/weather/clear 204 in 56ms
+10:36:55 AM [express] GET /api/weather/stats 200 in 1710ms :: {"location":"Statsenko","country":"Russia","temp_c":-4,"temp_f":26,"condition":"Mainly clear","humidity":93,"wind_kph":3,"wind_dir":"NE","feelslike_c":-7,"cloud":31,"weather_code":1}
+10:37:08 AM [express] GET /api/weather 200 in 21ms :: []
+10:37:22 AM [express] GET /api/weather/Delhi 304 in 1976ms :: {"location":"Delhi","country":"India","temp_c":35,"temp_f":94,"condition":"Mainly clear","humidity":23,"wind_kph":9,"wind_dir":"WNW","feelslike_c":34,"cloud":8,"weather_code":1}
+10:37:38 AM [express] GET /api/weather/Delhi 304 in 1244ms :: {"location":"Delhi","country":"India","temp_c":35,"temp_f":94,"condition":"Mainly clear","humidity":23,"wind_kph":9,"wind_dir":"WNW","feelslike_c":34,"cloud":8,"weather_code":1}
+10:45:50 AM [express] POST /api/weather/upload 400 in 3ms :: {"message":"Invalid data format","field":"0.date"}
+10:47:16 AM [express] POST /api/weather/upload 400 in 1ms :: {"message":"Invalid data format","field":"0.date"}

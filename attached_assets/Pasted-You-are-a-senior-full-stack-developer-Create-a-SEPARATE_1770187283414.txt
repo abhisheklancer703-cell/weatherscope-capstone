@@ -1,0 +1,155 @@
+You are a senior full-stack developer.
+
+Create a SEPARATE, SECURE ADMIN PANEL for an existing WeatherScope web application.
+
+The Admin Panel must be ONLY accessible to the Owner/Admin and completely separate from the user-facing app.
+
+════════════════════════════
+1. PURPOSE OF ADMIN PANEL
+════════════════════════════
+The Admin Panel is for the App Owner to:
+• Monitor user registrations
+• Track app usage
+• View basic analytics
+• Manage users
+• Maintain full visibility and control
+
+════════════════════════════
+2. TECH STACK (MANDATORY)
+════════════════════════════
+• Backend: Python (Flask)
+• Frontend: HTML, CSS, JavaScript
+• Database: SQLite or CSV-based storage
+• Authentication: Admin login (username + password)
+• Deployment: Fully compatible with Replit
+
+════════════════════════════
+3. ADMIN AUTHENTICATION (VERY IMPORTANT)
+════════════════════════════
+• Separate Admin Login Page
+• Hard-coded or environment-based admin credentials
+• Session-based login
+• Logout functionality
+• Unauthorized users must NOT access admin pages
+
+════════════════════════════
+4. ADMIN PANEL PAGES / FEATURES
+════════════════════════════
+
+1️⃣ ADMIN LOGIN PAGE
+• Clean, secure login UI
+• Username + password fields
+• Error message for invalid login
+• Redirect to dashboard on success
+
+2️⃣ ADMIN DASHBOARD (MAIN PAGE)
+• Total registered users count
+• Total app visits
+• Date-wise usage summary
+• Simple analytics cards
+• Clean, professional admin UI
+
+3️⃣ USER REGISTRATION TRACKING
+• Store and display:
+  - User ID
+  - Name
+  - Email (or username)
+  - Registration date & time
+• Table view with sorting
+• Option to view user details
+
+4️⃣ APP USAGE TRACKING
+• Track:
+  - When a user opens the app
+  - Number of times app is used
+• Store timestamps
+• Display usage logs in admin panel
+
+5️⃣ DOWNLOAD / ACCESS TRACKING (LOGICAL)
+• Track first-time app access as “download/first use”
+• Show:
+  - User name
+  - First access date
+• Disclaimer: Explain that web apps track access, not Play Store installs
+
+6️⃣ USER MANAGEMENT
+• View all users
+• Enable / disable user accounts
+• Delete user record (optional)
+• Status column (Active / Disabled)
+
+7️⃣ DATA EXPORT
+• Export user data as CSV
+• Export usage logs as CSV
+• Button-based download
+
+8️⃣ ADMIN SETTINGS
+• Change admin password
+• View app information
+• Reset logs (optional)
+
+════════════════════════════
+5. DATABASE STRUCTURE (SUGGESTED)
+════════════════════════════
+• users table:
+  - id
+  - name
+  - email
+  - registered_at
+  - status
+
+• usage_logs table:
+  - id
+  - user_id
+  - access_time
+  - action_type
+
+════════════════════════════
+6. UI / UX REQUIREMENTS
+════════════════════════════
+• Admin panel must look professional
+• Dashboard-style layout
+• Sidebar navigation
+• Clean tables
+• Responsive design
+• No broken links
+• No placeholder text
+
+════════════════════════════
+7. SECURITY REQUIREMENTS
+════════════════════════════
+• Admin routes protected
+• Session-based authentication
+• Proper error handling
+• No user can access admin data
+
+════════════════════════════
+8. FINAL OUTPUT REQUIREMENTS
+════════════════════════════
+• Fully functional admin panel
+• Integrated with WeatherScope app
+• Clean, readable code
+• Proper comments
+• No missing features
+• Ready for academic submission
+
+════════════════════════════
+9. EXTRA (IMPORTANT)
+════════════════════════════
+• Add README explaining admin panel usage
+• Clearly explain limitations of download tracking
+• Ensure admin panel runs without errors on Replit
+• Do NOT skip any feature
+
+DELIVER A COMPLETE, FINISHED ADMIN PANEL FOR WEATHER SCOPE APPLICATION.
+
+
+
+
+After the complete this step 
+
+Give Me full URL 
+
+After the complete this step 
+
+Sabhi features add ho gye but check karo kisi features me koi error toh nhi apne hisab se sab kuch karo

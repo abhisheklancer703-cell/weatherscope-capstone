@@ -1,0 +1,51 @@
+
+> rest-express@1.0.0 dev
+> NODE_ENV=development tsx server/index.ts
+
+[1G[0K3:28:35 PM [express] serving on port 5000
+3:28:43 PM [express] GET /api/weather/Delhi 200 in 1420ms :: {"location":"Delhi","country":"India","temp_c":26,"temp_f":79,"condition":"Overcast","humidity":50,"wind_kph":6,"wind_dir":"NNW","feelslike_c":27,"cloud":100,"weather_code":3}
+3:28:43 PM [express] GET /api/weather/Delhi 200 in 367ms :: {"location":"Delhi","country":"India","temp_c":26,"temp_f":79,"condition":"Overcast","humidity":50,"wind_kph":6,"wind_dir":"NNW","feelslike_c":27,"cloud":100,"weather_code":3}
+3:28:44 PM [express] GET /api/weather/Delhi 304 in 467ms :: {"location":"Delhi","country":"India","temp_c":26,"temp_f":79,"condition":"Overcast","humidity":50,"wind_kph":6,"wind_dir":"NNW","feelslike_c":27,"cloud":100,"weather_code":3}
+3:28:44 PM [express] GET /api/weather/Delhi 304 in 1311ms :: {"location":"Delhi","country":"India","temp_c":26,"temp_f":79,"condition":"Overcast","humidity":50,"wind_kph":6,"wind_dir":"NNW","feelslike_c":27,"cloud":100,"weather_code":3}
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:28:48 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Upload.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:32:39 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Upload.tsx, /src/index.css[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:32:40 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Visualization.tsx, /src/pages/Prediction.tsx, /src/pages/Upload.tsx, /src/pages/Analysis.tsx, /src/pages/DataCleaning.tsx, /src/index.css[22m
